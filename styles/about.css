@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+     font-family: "Winky Sans", sans-serif;
+    background: greenyellow;
+}
+
+.line {
+    background-color: grey;
+    width: 100%;
+    height: 1.9px;
+}
+
+.return-home{
+    margin-left: 40px;
+    padding: 50px;
+}
+
+.return-home a {
+    font-family: "Winky Sans", sans-serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 535;
+    background: rgb(203, 195, 195);
+    text-decoration: none;
+}
+
+.return-home a:hover {
+    transform: translateY(-1px);
+    transition: 0.2s;
+    box-shadow: 2px 3px 4px 2px rgb(15, 15, 15);
+    background: #000;
+}
+
+.header{
+    font-family: "Winky Sans", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr) ;
+    
+}
+
+.about-text{
+    margin-left: 25px;
+    padding: 30px;
+}
+
+.about-text h1{
+    margin-top: 45px;
+
+}
+
+.about-text .para{
+    line-height: 30px;
+    width: 100%;
+}
+
+
+.footer-heder{
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+   
+}
+
+.footer-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.footer-media img{
+    height: 45px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+   .about-section{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr) ;
+    
+}
+}
