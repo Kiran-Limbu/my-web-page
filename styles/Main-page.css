@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     box-sizing: border-box;
+    background-color: #323232;
 }
 
 
@@ -374,3 +375,4 @@ h2 {
     height: 45px;
     cursor: pointer;
 }
+
